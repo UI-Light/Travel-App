@@ -1,0 +1,112 @@
+{
+    "restaurantUrl":[
+    {   "state": "Abia",
+        "url": "https://www.google.com/maps/search/restaurants+in+abia/@5.3141705,7.4352493,11z/data=!3m1!4b1?entry=ttu"
+    },
+    {   "state": "Abuja",
+        "url": "https://www.google.com/maps/search/restaurants+in+abuja/@9.0721495,7.4604761,13z/data=!3m1!4b1?entry=ttu"
+    },
+    {   "state": "Adamawa",
+        "url": "https://www.google.com/maps/search/restaurants+in+adamawa/@9.2731547,12.4612487,12z/data=!3m1!4b1?entry=ttu"
+    },
+    {   "state": "Akwa Ibom",
+        "url": "https://www.google.com/maps/search/restaurants+in+Akwa+Ibom/@5.0351099,7.968144,12z/data=!3m1!4b1?entry=ttu"
+    },
+    {   "state": "Anambra",
+        "url": "https://www.google.com/maps/search/restaurants+in+Anambra/@6.1325458,6.9436764,11z/data=!3m1!4b1?entry=ttu"
+    },
+    {   "state": "Bauchi",
+        "url": "https://www.google.com/maps/search/restaurants+in+Bauchi/@10.314774,9.8399905,14z/data=!3m1!4b1?entry=ttu"
+    },
+    {   "state": "Bayelsa",
+        "url": "https://www.google.com/maps/search/restaurants+in+Bayelsa/@4.9481431,6.3343378,13z/data=!3m1!4b1?entry=ttu"
+    },
+    {   "state": "Benue",
+        "url": "https://www.google.com/maps/search/restaurants+in+Benue/@7.4781299,8.360714,10z/data=!3m1!4b1?entry=ttu"
+    },
+    {   "state": "Borno",
+        "url": "https://www.google.com/maps/search/restaurants+in+Borno/@11.828044,13.1544562,13z/data=!3m1!4b1?entry=ttu"
+    },
+    {   "state": "Cross River",
+        "url": "https://www.google.com/maps/search/restaurants+in+Cross+River/@5.4533565,8.4981479,9z/data=!3m1!4b1?entry=ttu"
+    },
+    {   "state": "Delta state",
+        "url": "https://www.google.com/maps/search/restaurants+in+Delta+state/@5.6983085,6.1940729,9z/data=!3m1!4b1?entry=ttu"
+    },
+    {   "state": "Ebonyi",
+        "url": "https://www.google.com/maps/search/restaurants+in+Ebonyi/@6.3157484,8.1011776,14z/data=!3m1!4b1?entry=ttu"
+    },
+    {   "state": "Edo",
+        "url": "https://www.google.com/maps/search/restaurants+in+edo/@6.5008725,5.8624616,10z/data=!3m1!4b1?entry=ttu"
+    },
+    {   "state": "Ekiti",
+        "url": "https://www.google.com/maps/search/restaurants+in+ekiti/@7.5734531,5.2146325,12z/data=!3m1!4b1?entry=ttu"
+    },
+    {   "state": "Enugu",
+        "url": "https://www.google.com/maps/search/restaurants+in+Enugu/@6.4466217,7.5146669,14z/data=!3m1!4b1?entry=ttu"
+    },
+    {   "state": "Gombe",
+        "url": "https://www.google.com/maps/search/restaurants+in+Gombe/@10.283527,11.1568403,13z/data=!3m1!4b1?entry=ttu"
+    },
+    {   "state": "Imo",
+        "url": "https://www.google.com/maps/search/restaurants+in+Imo/@5.5215616,7.0257638,13z/data=!3m1!4b1?entry=ttu"
+    },
+    {   "state": "Jigawa",
+        "url": "https://www.google.com/maps/search/restaurants+in+Jigawa/@12.2241441,9.5264416,9z/data=!3m1!4b1?entry=ttu"
+    },
+    {   "state": "Kaduna",
+        "url": "https://www.google.com/maps/search/restaurants+in+Kaduna/@10.5120723,7.435614,15z/data=!3m1!4b1?entry=ttu"
+    },
+    {   "state": "Kano",
+        "url": "https://www.google.com/maps/search/restaurants+in+Kano/@10.5120723,7.435614,15z/data=!3m1!4b1?entry=ttu"
+    },
+    {   "state": "Katsina",
+        "url": "https://www.google.com/maps/search/restaurants+in+Katsina/@10.5120723,7.435614,15z/data=!3m1!4b1?entry=ttu"
+    },
+    {   "state": "Kebbi",
+        "url": "https://www.google.com/maps/search/restaurants+in+Kebbi/@11.9849651,4.2166429,10z/data=!3m1!4b1?entry=ttu"
+    },
+    {   "state": "Kogi",
+        "url": "https://www.google.com/maps/search/restaurants+in+Kogi/@7.7267175,6.6924335,12z/data=!3m1!4b1?entry=ttu"
+    },
+    {   "state": "Kwara",
+        "url": "https://www.google.com/maps/search/restaurants+in+Kwara/@8.4999336,4.596917,12z/data=!3m1!4b1?entry=ttu"
+    },
+    {   "state": "Lagos",
+        "url": "https://www.google.com/maps/search/restaurants+in+Lagos/@6.4843781,3.4165402,13z/data=!4m2!2m1!6e5?entry=ttu"
+    },
+    {   "state": "Nasarawa",
+        "url": "https://www.google.com/maps/search/restaurants+in+Nasarawa/@7.7651006,5.7874272,7z/data=!3m1!4b1?entry=ttu"
+    },
+    {   "state": "Niger",
+        "url": "https://www.google.com/maps/search/restaurants+in+niger+state/@9.7136868,5.5319434,9z/data=!3m1!4b1?entry=ttu"
+    },
+    {   "state": "Ogun",
+        "url": "https://www.google.com/maps/search/restaurants+in+ogun+state/@7.1536987,3.5415645,11z/data=!3m1!4b1?entry=ttu"
+    },
+    {   "state": "Ondo",
+        "url": "https://www.google.com/maps/search/restaurants+in+Ondo+state/@7.3042514,4.5297661,10z/data=!3m1!4b1?entry=ttu"
+    },
+    {   "state": "Osun",
+        "url": "https://www.google.com/maps/search/restaurants+in+Osun+state/@7.3040122,4.5297624,10z/data=!3m1!4b1?entry=ttu"
+    },
+    {   "state": "Plateau",
+        "url": "https://www.google.com/maps/search/restaurants+in+plateau+state/@9.6189511,8.6023433,10z/data=!3m1!4b1?entry=ttu"
+    },
+    {   "state": "Rivers",
+        "url": "https://www.google.com/maps/search/restaurants+in+Rivers+state/@4.8170766,6.9998267,16z/data=!3m1!4b1?entry=ttu"
+    },
+    {   "state": "Sokoto",
+        "url": "https://www.google.com/maps/search/restaurants+in+Sokoto+state/@13.0451813,5.1859284,13z/data=!3m1!4b1?entry=ttu"
+    },
+    {   "state": "Taraba",
+        "url": "https://www.google.com/maps/search/restaurants+in+Taraba+state/@8.0952856,9.9220954,9z/data=!3m1!4b1?entry=ttu"
+    },
+    {   "state": "Yobe",
+        "url": "https://www.google.com/maps/search/restaurants+in+yobe+state/@12.2746861,10.5609281,9z/data=!3m1!4b1?entry=ttu"
+    },     
+    {   "state": "Zamfara",
+        "url": "https://www.google.com/maps/search/restaurants+in+Zamfara+state/@12.126269,6.0783988,10z/data=!3m1!4b1?entry=ttu"
+    }
+   ] 
+}

@@ -1,0 +1,631 @@
+{
+    "states": [
+      {
+        "name": "Abia",
+        "places": [
+          {
+            "name": "Arochukwu Long Juju Slave Route",
+            "description": "Explore the historical path that was once used during the transatlantic slave trade. Walk in the footsteps of history and learn about the harrowing journey that took place through this route.",
+            "image": "https://heroesofadventure.com/wp-content/uploads/2018/12/ogbunike-721x410.jpg"
+          },
+          {
+            "name": "National War Museum, Umuahia",
+            "description": "Immerse yourself in Nigeria's military history at this comprehensive museum. From artifacts to exhibits, it's a place to pay tribute to the brave individuals who served their nation.",
+            "image": "https://lh5.googleusercontent.com/p/AF1QipNn6OpaesYmiDc_GcwIxW8e5vKAcCY_18niB88M=w296-h202-n-k-no-v1"
+          },
+          {
+            "name": "Aba Sports Club Golf Course",
+            "description": "Whether you're a seasoned golfer or a beginner, this golf course offers a relaxing day on the greens.",
+            "image": "https://abasportsclub1926.org/frontend/assets/image/abasports1.jpeg"
+          }
+        ]
+      },
+      {
+        "name": "Adamawa",
+        "places": [
+          {
+            "name": "Lamurde Hot Spring",
+            "description": "Surrender to the soothing waters of this natural hot spring. The warmth and mineral-rich waters provide the ultimate relaxation experience in the midst of nature.",
+            "image": "https://www.nigeriagalleria.com/Nigeria/States_Nigeria/Adamawa/Images/Lamurde%20Hot%20Springs.jpg"
+          },
+          {
+            "name": "Sukur Cultural Landscape",
+            "description": "Discover the magic of Sukur, a UNESCO-listed cultural landscape. Its terraced fields, historic architecture, and intricate culture make it a unique destination to explore.",
+            "image": "https://miro.medium.com/v2/0*ogkN9Z1yehwamHxi.jpg"
+          }
+        ]
+      },
+      {
+        "name": "Akwa Ibom",
+        "places": [
+          {
+            "name": "Ibom Plaza",
+            "description": "A bustling hub of commerce and culture, Ibom Plaza is where modernity meets tradition. Enjoy shopping, entertainment, and a taste of local flavors all in one place.",
+            "image": "https://www.ibomair.com/wp-content/uploads/2022/01/hl81gtkfqex41.jpg"
+          },
+          {
+            "name": "Godswill Akpabio International Stadium",
+            "description": "A magnificent arena that hosts sports events and cultural spectacles. Feel the energy of the crowd as you witness sporting excellence and vibrant performances.",
+            "image": "https://www.nairaland.com/attachments/2459713_stadium0_jpeg_jpegedcb69fced687f0f4f8df668c7dfdf49"
+          },
+          {
+            "name": "Ibeno Beach",
+            "description": "Sink your toes into the golden sands of Ibeno Beach, where the Atlantic Ocean's waves create a soothing soundtrack for your relaxation.",
+            "image": "https://img.rezdy.com/PRODUCT_IMAGE/13699/IBENO2_lg.jpg"
+          }
+        ]
+      },
+      {
+        "name": "Anambra",
+        "places": [
+          {
+            "name": "Ogbunike Caves",
+            "description": "Embark on a mystical journey into the heart of the earth. The interconnected caves hold stories and legends that captivate the imagination..",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Ogbunike-Cave-Oyi-Anambra-State.png"
+          },
+          {
+            "name": "Nnamdi Azikiwe Mausoleum",
+            "description": "Pay your respects to Nigeria's first president at this mausoleum. It's a place of honor and reflection on the nation's history.",
+            "image": "https://guardian.ng/wp-content/uploads/2018/12/DuHRPGoWoAA6utp.jpg"
+          },
+          {
+            "name": "Agulu Lake",
+            "description": "Serenity surrounds you at Agulu Lake, where the calm waters mirror the beauty of nature. Enjoy boating, picnicking, and a peaceful atmosphere.",
+            "image": "https://guardian.ng/wp-content/uploads/2016/07/Agulu-Lake_n.jpg"
+          }
+        ]
+      },
+      {
+        "name": "Bauchi",
+        "places": [
+          {
+            "name": "Yankari National Park",
+            "description": "Nature's wonderland awaits at Yankari National Park. Encounter diverse wildlife, hot springs, and breathtaking landscapes in this protected reserve.",
+            "image": "https://yankarigamereserve.com.ng/wp-content/uploads/2020/11/20201003_160142-scaled-e1606238528633.jpg"
+          },
+          {
+            "name": "Wikki Warm Spring",
+            "description": "Immerse yourself in the healing waters of Wikki Warm Spring. The natural warmth and purity of the spring make it a unique spot for relaxation.",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZmJIpJkwtNlJtI3HkMZeKTrF3oiSsmYOV9A&usqp=CAU"
+          },
+          {
+            "name": "Tafawa Balewa Tomb",
+            "description": "A tribute to Nigeria's first Prime Minister, this tomb offers historical insights into the nation's early years.",
+            "image": "https://media.timbu.com/poi/842/image286-842-577562aa3086a.jpg?w=300?w=300"
+          }
+        ]
+      },
+      {
+        "name": "Bayelsa",
+        "places": [
+          {
+            "name": "Ox-Bow Lake",
+            "description": "Experience tranquility at Ox-Bow Lake, formed by the winding of the Niger River. Explore the surrounding mangroves and take in the abundant birdlife.",
+            "image": "https://www.gbaramatuvoicenews.com/wp-content/uploads/2023/04/IMG-20230421-WA0026.jpg"
+          }
+        ]
+      },
+      {
+        "name": "Benue",
+        "places": [
+          {
+            "name": "Ikyogen Hills",
+            "description": "Trek through the picturesque Ikyogen Hills and be rewarded with breathtaking vistas. This hiker's paradise offers a chance to connect with nature in its purest form.",
+            "image": "https://www.nairaland.com/attachments/11498256_touristsatthehillsofbenue660x400_jpegb4086786b34a860d2d37dd7076bbc50b"
+          },
+          {
+            "name": "Tor Tiv Palace",
+            "description": "A cultural gem, the Tor Tiv Palace reflects the rich heritage of the Tiv people. Experience the grandeur of traditional architecture and learn about local customs.",
+            "image": "https://media.thisnigeria.com/2021/04/Tor-Tiv-Palace.jpg"
+          }
+        ]
+      },
+      {
+        "name": "Borno",
+        "places": [
+          {
+            "name": "Chad Basin National Park",
+            "description": "Nature enthusiasts will be enchanted by the diverse ecosystems of Chad Basin National Park. Observe wildlife, wetlands, and bird species in their natural habitat.",
+            "image": "https://api.files.attenvo.com/uploads/images/m4mdnthx6yxunsz9th5wretegxwf5qao3vokpowr-1656785530-compressed.jpg"
+          },
+          {
+            "name": "Shehu's Palace",
+            "description": "Step into history at Shehu's Palace, a testament to the grandeur of the Borno Sultanate. Admire the intricate architecture and learn about the region's legacy.",
+            "image": "https://dailytrust.com/wp-content/uploads/2016/10/2016_10large_Shehu_Borno.jpg"
+          }
+        ]
+      },
+      {
+        "name": "Cross River",
+        "places": [
+          {
+            "name": "Obudu Mountain Resort",
+            "description": "Experience the allure of the mountains at Obudu Mountain Resort. With cable cars and stunning landscapes, it's a destination for adventure and relaxation.",
+            "image": "https://www.obudumountainresort.com/siteadmin/files/gallery/54892906.jpg"
+          },
+          {
+            "name": "Agbokim Waterfalls",
+            "description": "Marvel at the cascading beauty of Agbokim Waterfalls, a collection of seven waterfalls nestled amidst lush forests and rocky terrains.",
+            "image": "https://ocdn.eu/images/pulscms/OTY7MDA_/f7d62bdc42f77a9d93afb26e78606ff5.jpg"
+          },
+          {
+            "name": "Drill Ranch",
+            "description": "Engage with wildlife conservation at Drill Ranch. Encounter rare primates and contribute to efforts to protect these endangered species.",
+            "image": "https://www.zoochat.com/community/media/drill-group-at-pandrillus-hq-calabar-nigeria.271997/full"
+          }
+        ]
+      },
+      {
+        "name": "Delta",
+        "places": [
+          {
+            "name": "Abraka Turf and Country Club",
+            "description": "Unwind in style at Abraka Turf and Country Club, where tranquility meets leisure. Enjoy golf, swimming, and a touch of luxury.",
+            "image": "https://www.cometonigeria.com/wp-content/uploads/2011/08/Abraka-Turf.jpg"
+          }
+        ]
+      },
+      {
+        "name": "Ebonyi",
+        "places": [
+          {
+            "name": "Salt Spring Resort",
+            "description": "Indulge in the therapeutic properties of the salt spring waters. The resort offers relaxation and rejuvenation in the midst of picturesque landscapes.",
+            "image": "https://lh5.googleusercontent.com/p/AF1QipPgzXM49nhtViTrSwH_gM2EFP8i1MvuiXkLGEtb"
+          },
+          {
+            "name": "Okposi Salt Lake",
+            "description": "Witness the ancient salt-making tradition at Okposi Salt Lake. The process and history behind this natural marvel are as fascinating as the destination itself.",
+            "image": "https://www.nigeriagalleria.com/Nigeria/States_Nigeria/Ebonyi/Images/salt-lake-okposi.jpg"
+          }
+        ]
+      },
+      {
+        "name": "Edo",
+        "places": [
+          {
+            "name": "Benin City Walls and Moat (UNESCO World Heritage Site)",
+            "description": "Step back in time as you explore the ancient walls and moat of Benin City. These historic structures are a testament to the city's rich past.",
+            "image": "https://edoaffairs.com/wp-content/uploads/2019/08/Benin-Moat-2.jpg"
+          },
+          {
+            "name": "National Museum, Benin City",
+            "description": "Immerse yourself in Edo's cultural heritage at the National Museum. Discover a treasure trove of artifacts that tell the stories of generations.",
+            "image": "https://3.bp.blogspot.com/-qXOWnDX2yYw/Wet_-dVYr7I/AAAAAAAAGhI/EJXJBNYqgvsiX0mdTZ8FohLCyIGOwasIwCK4BGAYYCw/s640/2-museum-entrance-.png"
+          },
+          {
+            "name": "Okomu National Park",
+            "description": "Nature lovers will find solace in the lush landscapes of Okomu National Park. Encounter diverse flora and fauna in their natural habitat.",
+            "image": "https://media-cdn.tripadvisor.com/media/photo-s/1b/e7/19/c4/entry-park.jpg"
+          }
+        ]
+      },
+      {
+        "name": "Ekiti",
+        "places": [
+          {
+            "name": "Arinta Waterfalls",
+            "description": "Delight in the beauty of Arinta Waterfalls, where cascades of water create a serene backdrop for relaxation and exploration.",
+            "image": "https://experiencingnaija.com/wp-content/uploads/2019/03/Arinta-Waterfalls.jpg"
+          },
+          {
+            "name": "Ikogosi Warm Springs",
+            "description": "Experience the magic of Ikogosi Warm Springs, where warm and cold springs merge, creating a unique natural phenomenon.",
+            "image": "https://guardian.ng/wp-content/uploads/2016/05/Ikogosi.jpg"
+          }
+        ]
+      },
+      {
+        "name": "Enugu",
+        "places": [
+         {
+            "name": "Awhum Waterfall",
+            "description": "Immerse yourself in the enchantment of Awhum Waterfall, a sacred site with natural beauty that captivates all who visit.",
+            "image": "https://ibiene.com/wp-content/uploads/2020/09/images-5.jpeg"
+        },
+        {
+            "name": "Ezimo Waterfall",
+            "description": "Hills offering scenic views of the surroundings.",
+            "image": "https://pbs.twimg.com/media/Ex_uVJNWYAEoHf0.jpg"
+            },
+          {
+            "name": "Nike Lake Resort",
+            "description": "Relax by the tranquil waters of Nike Lake Resort. Enjoy boating, serene walks, and a peaceful ambiance amidst nature.",
+            "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-s/01/79/45/b6/nike-lake-resort-pool.jpg?w=600&h=-1&s=1"
+          },
+          {
+            "name": "Ngwo Pine Forest",
+            "description": "Escape to Ngwo Pine Forest for a rejuvenating retreat. The enchanting pine trees and cool atmosphere provide a welcome respite.",
+            "image": "https://pbs.twimg.com/media/EWm4NZ4XsAA8VJf.jpg"
+          }
+        ]
+      },
+      {
+        "name": "Gombe",
+        "places": [
+          {
+            "name": "Gombe National Park",
+            "description": "Discover the diversity of wildlife at Gombe National Park, where you can witness chimpanzees in their natural habitat and enjoy the beauty of nature.",
+            "image": "https://www.cometonigeria.com/wp-content/uploads/Gombe_state-landscape.jpg"
+          }
+        ]
+      },
+      {
+        "name": "Imo",
+        "places": [
+          {
+            "name": "Oguta Lake",
+            "description": "Experience the beauty of Oguta Lake, a serene expanse of water that offers boating, fishing, and a peaceful escape from the bustle of daily life.",
+            "image": "https://i0.wp.com/refinedng.com/wp-content/uploads/2022/11/lake.jpg?fit=886%2C625&ssl=1"
+          },
+          {
+            "name": "Mbari Cultural and Art Centre",
+            "description": "Immerse yourself in art and culture at Mbari Cultural and Art Centre. The vibrant sculptures and artistic expressions celebrate the creativity of the region.",
+            "image": "https://media.timbu.com/poi/1491/kor7-1491-57a01751379d8.jpg?w=300"
+          }
+        ]
+      },
+      {
+        "name": "Jigawa",
+        "places": [
+      
+          {
+            "name": "Dutse Rock Range",
+            "description": "Discover the beauty of Gwaram Lake, where tranquility meets natural splendor. The serene surroundings offer a soothing escape.",
+            "image": "https://www.nigeriagalleria.com/Nigeria/States_Nigeria/Jigawa/Images/Dutse-Mountains.jpg"
+          }
+        ]
+      },
+      {
+        "name": "Kaduna",
+        "places": [
+          {
+            "name": "Kajuru Castle",
+            "description": "Embark on a fairytale adventure at Kajuru Castle, a stunning architectural wonder that stands amidst the beauty of nature.",
+            "image": "https://ocdn.eu/pulscms-transforms/1/VhOk9kpTURBXy8yZWIyNmU5YWNiNTgzODUxYTM5YTM1NzQ2MGRkYzQ0Ny5wbmeRlQLNAg3NAS7Cw94AAaEwBQ"
+          },
+          {
+            "name": "Matsirga Waterfalls",
+            "description": "Be captivated by the beauty of Matsirga Waterfalls, where cascades of water create a serene and refreshing oasis.",
+            "image": "https://live.staticflickr.com/1866/43847733385_775729a567_b.jpg"
+          }
+        ]
+      },
+      {
+        "name": "Kano",
+        "places": [
+          {
+            "name": "Gidan Makama Museum",
+            "description": "Immerse yourself in the history and culture of Kano at Gidan Makama Museum. Discover artifacts that tell the story of the region's past.",
+            "image": "https://lh3.googleusercontent.com/ci/AA1T9HIzl1a6AFMW3WoHCay9rI5uS0lLgkAIKpUf4dBXDquvUbTBjreJN6Jy8Po1WBsLru5NXLDS"
+          },
+          {
+            "name": "Kano City Walls",
+            "description": "Traverse the centuries-old Kano City Walls, an iconic structure that offers insights into the city's historical significance.",
+            "image": "https://www.nigeriagalleria.com/Nigeria/States_Nigeria/Kano/Images/kano-wall.jpg"
+          }
+        ]
+      },
+      {
+        "name": "Katsina",
+        "places": [
+          {
+            "name": "Gobarau Minaret",
+            "description": "Marvel at the elegance of Gobarau Minaret, a historic structure that stands as a testament to Katsina's architectural heritage.",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Gobarau_Minaret_1.jpg/1536px-Gobarau_Minaret_1.jpg"
+          },
+          {
+            "name": "Kusugu Well",
+            "description": "Visit the ancient Kusugu Well, a historic site that offers a glimpse into the ingenuity of the past.",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1uEiuksEXP3A7K00RkN1fJBb-lGFV0i2Aqg&usqp=CAU"
+          }
+        ]
+      },
+      {
+        "name": "Kebbi",
+        "places": [
+          {
+            "name": "Kanta Museum",
+            "description": "Immerse yourself in Kebbi's history at Kanta Museum, where artifacts and exhibits paint a vivid picture of the region's past.",
+            "image": "https://momaa.org/wp-content/uploads/2019/10/CoHr0V_XgAA2X2H.png"
+          },
+          {
+            "name": "Surame Cultural Landscape",
+            "description": "Explore the UNESCO-listed Surame Cultural Landscape, an ancient settlement that provides insights into the architectural and cultural traditions of the region.",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/4/47/Surame_Ancient_City_Wall_%284%29.jpg"
+          }
+        ]
+      },
+      {
+        "name": "Kwara",
+        "places": [
+          {
+            "name": "Owu Waterfall",
+            "description": "Discover the awe-inspiring Owu Waterfall, where water cascades down rocky terrains, creating a breathtaking spectacle.",
+            "image": "https://rnn.ng/wp-content/uploads/2021/06/2019-02-06-1000x600.jpg"
+          },
+          {
+            "name": "Esie Museum",
+            "description": "Immerse yourself in the culture of the Yoruba people at Esie Museum, known for its collection of stone figures and artifacts.",
+            "image": "https://tribuneonlineng.com/wp-content/uploads/2021/09/IMG-20210726-WA0020.jpg"
+          },
+          {
+            "name": "Sobi Hill",
+            "description": "Hike up Sobi Hill for stunning panoramic views. The hill's natural beauty and historical significance make it a captivating destination.",
+            "image": "https://naidrenalin.com.ng/wp-content/uploads/2017/08/d11399d9-bbf5-4ae5-bd0c-c0df43c10c8e.jpg"
+          }
+        ]
+      },
+      {
+        "name": "Lagos",
+        "places": [
+          {
+            "name": "Lekki Conservation Centre",
+            "description": "Engage with nature at Lekki Conservation Centre, where a canopy walkway and diverse wildlife offer a unique eco-tourism experience..",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/d/d5/A_pathway_in_the_Lekki_Convention_Center.jpg"
+          },
+          {
+            "name": "Nike Art Gallery",
+            "description": "Immerse yourself in the world of Nigerian art at Nike Art Gallery, a haven for both traditional and contemporary artistic expressions.",
+            "image": "https://miro.medium.com/v2/resize:fit:1200/1*ZJOnoVpTQH6-i4J35LS2oA@2x.jpeg"
+          },
+          {
+            "name": "National Museum, Lagos",
+            "description": "Journey through history at the National Museum, where artifacts and exhibitions showcase Nigeria's cultural richness.",
+            "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/2d/c9/c2/the-national-museum.jpg?w=1200&h=-1&s=1"
+          },
+          {
+            "name": "Tarkwa Bay Beach",
+            "description": "A popular beach for relaxation and water sports.",
+            "image": "https://ocdn.eu/images/pulscms/ZjA7MDA_/78474dc8dfc0b63c8367ef5587ecc8ff.jpeg"
+          },
+          {
+            "name": "Freedom Park Lagos",
+            "description": " A historical and recreational park with cultural events and exhibitions.",
+            "image": "https://freedomparklagos.com/wp-content/uploads/2020/01/FPL03-2-scaled.jpg"
+          },
+          {
+            "name": "Lagos Lagoon Boat Cruises",
+            "description": "Enjoy boat rides on the Lagos Lagoon for scenic views.",
+            "image": "https://thumbs.dreamstime.com/b/boat-cruise-boats-cruising-lagos-lagoon-95303306.jpg"
+          },
+          {
+            "name": "Eko Atlantic City",
+            "description": " A modern development with impressive architecture and ocean views.",
+            "image": "https://i0.wp.com/businessday.ng/wp-content/uploads/2020/02/Eko-Atlantic-City-e1557948528545.jpg?fit=700%2C382&ssl=1"
+          },
+          {
+            "name": "Ikeja City Mall",
+            "description": "A shopping and entertainment complex offering a range of activities.",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Ikeja_City_Mall.jpg/640px-Ikeja_City_Mall.jpg"
+          }
+        ]
+      },
+      {
+        "name": "Nasarawa",
+        "places": [
+          {
+            "name": "Farin Ruwa Waterfall",
+            "description": "Witness the stunning beauty of Farin Ruwa Waterfall, where water cascades down a cliff amidst lush surroundings.",
+            "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/00/3f/17/caption.jpg?w=1200&h=-1&s=1"
+          },
+          {
+            "name": "Keana Salt Village",
+            "description": "Experience the age-old tradition of salt production at Keana Salt Village, where you can learn about this essential process.",
+            "image": "https://www.nigeriagalleria.com/Nigeria/States_Nigeria/Nasarawa/Images/keana-salt-village-nasarawa.jpg"
+          }
+        ]
+      },
+      {
+        "name": "Niger",
+        "places": [
+          {
+            "name": "Gurara Waterfalls",
+            "description": "Marvel at the grandeur of Gurara Waterfalls, a natural wonder that captivates with its sheer beauty.",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Gurara_waterfalls.jpg"
+          },
+          
+    
+          {
+            "name": "Zuma Rock",
+            "description": "Behold the majesty of Zuma Rock, an iconic monolith that has been a symbol of strength and resilience for generations.",
+            "image": "https://lh5.googleusercontent.com/p/AF1QipOjUMPpXP3aEka-Q0ItgzJs46_DC3b7ywzMZfZR=w296-h202-n-k-no-v1"
+          }
+        ]
+      },
+      {
+        "name": "Ogun",
+        "places": [
+          {
+            "name": "Olumo Rock",
+            "description": "Embark on a journey through history as you explore Olumo Rock, a historical site and natural wonder that offers panoramic views..",
+            "image": "https://media.istockphoto.com/id/1178210200/photo/olumo-rock.jpg?s=170667a&w=0&k=20&c=QdtyO42TWxf6Zt2O_LycBC-FPiwUfwFycgUUZfM3G4E="
+          },
+          {
+            "name": "Omo Forest Reserve",
+            "description": "Immerse yourself in the tranquility of Omo Forest Reserve, a protected area where nature's wonders thrive.",
+            "image": "https://cimages.timbu.com/guides/2019/11/the-elephant-1024x577.jpg"
+          }
+        ]
+      },
+      {
+        "name": "Ondo",
+        "places": [
+          {
+            "name": "Idanre Hills",
+            "description": "Climb to the top of Idanre Hills for stunning views and a glimpse into the past through ancient architecture and artifacts.",
+            "image": "https://www.ancient-origins.net/sites/default/files/field/image/Idanre-Hill.jpg"
+          },
+          {
+            "name": "Ebomi Lake",
+            "description": "Enjoy the serenity of Ebomi Lake, where calm waters and beautiful surroundings create a peaceful atmosphere.",
+            "image": "https://i0.wp.com/outravelandtour.com/wp-content/uploads/2020/01/Ebomi-Lake.jpg?ssl=1"
+          }
+        ]
+      },
+      {
+        "name": "Osun",
+        "places": [
+          {
+            "name": "Osun-Osogbo Sacred Grove (UNESCO World Heritage Site)",
+            "description": "Immerse yourself in spirituality and art at Osun-Osogbo Sacred Grove, a UNESCO World Heritage Site that celebrates the Yoruba goddess Osun.",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBxz6R2osfloV-sAdiV8p0pwEeWSjabZG_zQ&usqp=CAU"
+          },
+          {
+            "name": "Erin-Ijesha Waterfall",
+            "description": "Marvel at the grandeur of Erin-Ijesha Waterfall, where water cascades down terraced rocks in a mesmerizing display.",
+            "image": "https://choconaija.com.ng/wp-content/uploads/2021/01/ERIN-IJESHA-waterfall-osun-oshogbo-cassie-daves-16.jpeg"
+          }
+        ]
+      },
+      {
+        "name": "Oyo",
+        "places": [
+          {
+            "name": "Ibadan National Museum",
+            "description": "Immerse yourself in Nigeria's history and culture at Ibadan National Museum, where artifacts and exhibits tell the nation's story.",
+            "image": "https://www.hlimg.com/images/things2do/738X538/93_1520677616t.jpg"
+          },
+          {
+            "name": "Mapo Hall",
+            "description": "Witness the architectural beauty of Mapo Hall, an iconic building that overlooks Ibadan and offers panoramic views.",
+            "image": "https://example.com/sukur_landscape.jpg"
+          },
+          {
+            "name": "Ado-Awaye Suspended Lake",
+            "description": "Discover the wonder of Ado-Awaye Suspended Lake, a unique geological formation that invites exploration.",
+            "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/42/37/3f/the-suspended-lake-also.jpg?w=1200&h=-1&s=1"
+          }
+        ]
+      },
+      {
+        "name": "Plateau",
+        "places": [
+          {
+            "name": "Jos Wildlife Park",
+            "description": "Encounter diverse wildlife and natural beauty at Jos Wildlife Park, a sanctuary for animal species amidst picturesque landscapes.",
+            "image": "https://media.timbu.com/poi/1042/13178815_10207951496199008_6809679414387686028_n-1042-578242e9c4299.jpg?w=300"
+          },
+          {
+            "name": "Shere Hills",
+            "description": "Trek through Shere Hills for breathtaking views and an opportunity to connect with nature in its most serene form..",
+            "image": "https://i0.wp.com/outravelandtour.com/wp-content/uploads/2021/05/Shere-Hills.jpg?ssl=1"
+          },
+          {
+            "name": "Riyom Rock Formation",
+            "description": "Explore the intriguing rock formations of Riyom, a geological wonder that tells a story of Earth's history.",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Riyom_rock_formation%2C_Nigeria.jpg"
+          }
+        ]
+      },
+      {
+        "name": "Rivers",
+        "places": [
+          {
+            "name": "Port Harcourt Tourist Beach",
+            "description": "Relax and rejuvenate at Port Harcourt Tourist Beach, where sandy shores and ocean waves provide a perfect escape.",
+            "image": "https://www.cometonigeria.com/wp-content/uploads/2018/04/1.jpeg"
+          },
+          {
+            "name": "Isaac Boro Park",
+            "description": "Pay tribute to Isaac Boro, a Nigerian hero, at this park that stands as a reminder of his contributions.",
+            "image": "https://www.whatsoninportharcourt.com/wp-content/uploads/2020/04/Isaac-Boro-Garden-Park.jpg"
+          },
+          {
+            "name": "Finima Nature Park",
+            "description": "Immerse yourself in nature at Finima Nature Park, where mangroves and wildlife create an ecological haven.",
+            "image": "https://artsymoments.com/wp-content/uploads/2018/12/SCKU5684-1280x640.jpg"
+          }
+        ]
+      },
+      {
+        "name": "Sokoto",
+        "places": [
+       
+        ]
+      },
+      {
+        "name": "Taraba",
+        "places": [
+          {
+            "name": "Mambilla Plateau",
+            "description": "Marvel at the beauty of Mambilla Plateau, where expansive landscapes and cool climate provide a unique escape.",
+            "image": "https://guardian.ng/wp-content/uploads/2017/06/mambilla-plateau-1062x598.jpg"
+          },
+          {
+            "name": "Gashaka-Gumti National Park",
+            "description": "Discover the diversity of wildlife at Gashaka-Gumti National Park, a protected area that showcases nature's wonders.",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/2/28/Gashaka-Gumti_National_Park%2C_Taraba%2C_Nigeria.jpg"
+          }
+        ]
+      },
+      {
+        "name": "Yobe",
+        "places": [
+        
+          {
+            "name": "Hadejia-Nguru Wetlands",
+            "description": "Witness the rich biodiversity of Hadejia-Nguru Wetlands, a UNESCO Biosphere Reserve known for its diverse birdlife and natural wonders.",
+            "image": "https://en.unesco.org/sites/default/files/cover_hadejia_nguru_bade_biosphere_reserve_nigeria_unesco.jpg"
+          }
+        ]
+      },
+      {
+        "name": "Zamfara",
+        "places": [
+          {
+            "name": "Kuyambana Game Reserve",
+            "description": "Kuyambana Game Reserve: Experience wildlife in their natural habitat at Kwiambana Game Reserve, a sanctuary for animals amidst picturesque landscapes.",
+            "image": "https://www.nigeriagalleria.com/Nigeria/States_Nigeria/Zamfara/Images/kuyambana-game-reserve.jpg"
+          }
+        ]
+      },
+      {
+        "name": "Abuja",
+        "places": [
+          {
+            "name": "Aso Rock",
+            "description": "A massive rock formation that's a symbol of Abuja, with panoramic views from the top.",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Aso_Rock_as_seen_from_the_IBB_golf_course_in_Abuja%2C_Nigeria.jpg"
+          },
+          {
+            "name": "Zuma Rock",
+            "description": "Another iconic rock formation located near Abuja, visible from a distance.",
+            "image": "https://lh5.googleusercontent.com/p/AF1QipOjUMPpXP3aEka-Q0ItgzJs46_DC3b7ywzMZfZR=w296-h202-n-k-no-v1"
+          },
+          {
+            "name": "National Mosque Abuja",
+            "description": " One of the largest mosques in Africa, known for its impressive architecture.",
+            "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/32/24/af/getlstd-property-photo.jpg?w=1200&h=-1&s=1"
+          },
+        
+          {
+            "name": "Jabi Lake",
+            "description": "A man-made lake offering water sports and relaxation opportunities.",
+            "image": "https://aroundabuja.com/wp-content/uploads/2022/09/images-65.jpeg"
+          },
+          {
+            "name": "Abuja Arts and Crafts Village",
+            "description": "An artisan market featuring traditional crafts and artworks.",
+            "image": "https://pbs.twimg.com/media/E3k7eXsXwAEpyky.jpg"
+          },
+          {
+            "name": "Millennium Park",
+            "description": "A large park with green spaces, walkways, and recreational facilities.",
+            "image": "https://allroundafrica.com/wp-content/uploads/2021/03/Millenium-Park-Abuja.jpg"
+          },
+          {
+            "name": "Wonderland Amusement Park",
+            "description": "An amusement park with rides, games, and family-friendly attractions.",
+            "image": "https://media.timbu.com/poi/50/wonderland-park.jpg-50-56c22b5e49275.jpg?w=300?w=300"
+          },
+          {
+            "name": "Nigerian National Christian Centre",
+            "description": " A prominent Christian worship center with striking architecture.",
+            "image": "https://aroundabuja.com/wp-content/uploads/2022/09/images-42.jpeg"
+          }
+        ]
+      }
+    ]
+  }
+  

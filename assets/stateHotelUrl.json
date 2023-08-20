@@ -1,0 +1,115 @@
+{
+    "hotelUrl":[
+        {   "state": "Abia",
+            "url": "https://www.google.com/maps/search/hotels+in+abia/@5.3209698,7.3170547,11z/data=!3m1!4b1?entry=ttu"
+    },
+        {   "state": "Abuja",
+            "url": "https://www.google.com/maps/search/hotels+in+abuja/@9.0350567,7.305101,12z/data=!3m1!4b1?entry=ttu"
+    },
+        {   "state":"Adamawa",
+            "url": "https://www.google.com/maps/search/hotels+in+adamawa/@9.2697584,12.3841956,12z/data=!3m1!4b1?entry=ttu"
+    },
+        {   "state":"Awka Ibom",
+            "url": "https://www.google.com/maps/search/hotels+in+awka+ibom/@6.2129682,7.0512524,14z/data=!3m1!4b1?entry=ttu"
+    },
+        {   "state": "Anambra",
+            "url": "https://www.google.com/maps/search/hotels+in+anambra/@6.2230783,7.050437,15z/data=!3m1!4b1?entry=ttu"
+    },
+        {   "state": "Bauch",
+            "url": "https://www.google.com/maps/search/hotels+in+bauchi/@10.3045375,9.7725142,13z/data=!3m1!4b1?entry=ttu"
+    },
+        {   "state": "Bayelsa",
+            "url": "https://www.google.com/maps/search/hotels+in+Bayelsa/@4.9554534,6.2816771,13z/data=!3m1!4b1?entry=ttu"
+    },
+        {   "state": "Benue",
+            "url": "https://www.google.com/maps/search/hotels+in+Benue/@7.4584168,8.2442223,10z/data=!3m1!4b1?entry=ttu"
+    },
+        {   "state": "Borno",
+            "url": "https://www.google.com/maps/search/hotels+in+Borno/@7.4504535,5.9314516,7z/data=!3m1!4b1?entry=ttu"
+    },
+        {   "state": "Cross River",
+            "url": "https://www.google.com/maps/search/hotels+in+cross+river/@5.8636211,4.9195515,8z/data=!3m1!4b1?entry=ttu"
+    },
+        {   "state": "Delta",
+            "url": "https://www.google.com/maps/search/hotels+in+delta+state/@5.8683532,5.9096348,10z/data=!3m1!4b1?entry=ttu"
+    },
+        {   "state": "Ebonyi",
+            "url": "https://www.google.com/maps/search/hotels+in+ebonyi/@6.0961243,7.7007458,10z/data=!3m1!4b1?entry=ttu"
+    },
+        {   "state": "Edo",
+            "url": "https://www.google.com/maps/search/hotels+in+edo/@6.4368509,5.9114317,8z/data=!3m1!4b1!4m4!2m3!5m2!5m1!1s2023-08-19?entry=ttu"
+    },
+        {   "state": "Ekiti",
+            "url": "https://www.google.com/maps/search/hotels+in+ekiti/@7.6429983,5.171612,13z/data=!3m1!4b1!4m4!2m3!5m2!5m1!1s2023-08-19?entry=ttu"
+    },
+        {   "state": "Enugu",
+            "url": "https://www.google.com/maps/search/hotels+in+enugu/@6.4425865,7.4905255,14z/data=!3m1!4b1!4m4!2m3!5m2!5m1!1s2023-08-19?entry=ttu"
+    },
+        {   "state": "Gombe",
+            "url": "https://www.google.com/maps/search/hotels+in+gombe/@9.8193024,9.3063938,8z/data=!3m1!4b1!4m4!2m3!5m2!5m1!1s2023-08-19?entry=ttu"
+    },
+        {   "state": "Imo",
+            "url": "https://www.google.com/maps/search/hotels+in+imo/@5.5011342,7.0113721,13z/data=!3m1!4b1!4m4!2m3!5m2!5m1!1s2023-08-19?entry=ttu"
+    },
+        {   "state": "Jigawa",
+            "url": "https://www.google.com/maps/search/hotels+in+jigawa/@11.106139,7.9784314,8z/data=!3m1!4b1!4m4!2m3!5m2!5m1!1s2023-08-19?entry=ttu"
+    },
+        {   "state": "Kaduna",
+            "url": "https://www.google.com/maps/search/hotels+in+kaduna/@10.514163,7.4484523,12z/data=!3m1!4b1!4m4!2m3!5m2!5m1!1s2023-08-19?entry=ttu"
+    },
+        {   "state": "Kano",
+            "url": "https://www.google.com/maps/search/hotels+in+kano/@12.0002265,8.5492812,14z/data=!3m1!4b1!4m4!2m3!5m2!5m1!1s2023-08-19?entry=ttu"
+    },
+        {   "state": "Katsina",
+            "url": "https://www.google.com/maps/search/hotels+in+katsina/@12.0002266,8.5492812,9z/data=!3m1!4b1!4m4!2m3!5m2!5m1!1s2023-08-19?entry=ttu"
+    },
+        {   "state": "Kebbi",
+            "url": "https://www.google.com/maps/search/hotels+in+kebbi/@12.0002266,8.5492812,7z/data=!3m1!4b1!4m4!2m3!5m2!5m1!1s2023-08-19?entry=ttu"
+    },
+        {   "state": "Kogi",
+            "url": "https://www.google.com/maps/search/hotels+in+kogi/@7.7325968,6.5852641,9z/data=!3m1!4b1!4m4!2m3!5m2!5m1!1s2023-08-19?entry=ttu"
+    },
+        {   "state": "Kwara",
+            "url": "https://www.google.com/maps/search/hotels+in+kwara/@8.4761481,4.5711141,13z/data=!3m1!4b1!4m4!2m3!5m2!5m1!1s2023-08-19?entry=ttu"
+    },
+        {   "state": "Lagos",
+            "url": "https://www.google.com/maps/search/hotels+in+lagos/@6.5156735,3.3958718,12z/data=!3m1!4b1!4m4!2m3!5m2!5m1!1s2023-08-19?entry=ttu"
+    },
+        {   "state": "Nasarawa",
+            "url": "https://www.google.com/maps/search/hotels+in+Nasarawa/@8.770898,7.999113,9z/data=!3m1!4b1!4m4!2m3!5m2!5m1!1s2023-08-19?entry=ttu"
+    },
+        {   "state": "Niger",
+            "url": "https://www.google.com/maps/search/hotels+in+Niger/@9.1809768,7.1934343,13z/data=!3m1!4b1!4m4!2m3!5m2!5m1!1s2023-08-19?entry=ttu"
+    },
+        {   "state": "Ogun",
+            "url": "https://www.google.com/maps/search/hotels+in+ogun/@6.9162778,3.5804957,10z/data=!3m1!4b1!4m4!2m3!5m2!5m1!1s2023-08-19?entry=ttu"
+    },
+        {   "state": "Ondo",
+            "url": "https://www.google.com/maps/search/hotels+in+ondo/@7.141901,5.0546799,11z/data=!3m1!4b1!4m4!2m3!5m2!5m1!1s2023-08-19?entry=ttu"
+    },
+        {   "state": "Osun",
+            "url": "https://www.google.com/maps/search/hotels+in+osun/@7.141901,5.0546799,9z/data=!3m1!4b1!4m4!2m3!5m2!5m1!1s2023-08-19?entry=ttu"
+    },
+        {   "state": "Oyo",
+            "url": "https://www.google.com/maps/search/hotels+in+oyo/@7.609496,3.9375794,10z/data=!3m1!4b1!4m4!2m3!5m2!5m1!1s2023-08-19?entry=ttu"
+    },
+        {   "state": "Plateau",
+            "url": "https://www.google.com/maps/search/hotels+in+plateau+state/@9.657284,9.1128176,10z/data=!4m4!2m3!5m2!5m1!1s2023-08-19?entry=ttu"
+    },
+        {   "state": "Rivers",
+            "url": "https://www.google.com/maps/search/hotels+in+rivers+state/@4.8451977,6.9786802,12z/data=!3m1!4b1!4m4!2m3!5m2!5m1!1s2023-08-19?entry=ttu"
+    },
+        {   "state": "Sokoto",
+            "url": "https://www.google.com/maps/search/hotels+in+sokoto/@12.7491961,4.7207301,9z/data=!3m1!4b1!4m4!2m3!5m2!5m1!1s2023-08-19?entry=ttu"
+    },
+        {   "state": "Taraba",
+            "url": "https://www.google.com/maps/search/hotels+in+Taraba/@12.7491962,4.7207301,6z/data=!3m1!4b1!4m4!2m3!5m2!5m1!1s2023-08-19?entry=ttu"
+    },
+        {   "state": "Yobe",
+            "url": "https://www.google.com/maps/search/hotels+in+Yobe/@12.7491962,4.7207301,6z/data=!3m1!4b1!4m4!2m3!5m2!5m1!1s2023-08-19?entry=ttu"
+    },     
+        {   "state": "Zamfara",
+            "url": "https://www.google.com/maps/search/hotels+in+zamfara/@11.0932038,5.8173853,8z/data=!3m1!4b1!4m4!2m3!5m2!5m1!1s2023-08-19?entry=ttu"}
+    ]
+}
+
