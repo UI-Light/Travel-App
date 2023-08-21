@@ -87,22 +87,24 @@ class _DescriptionViewState extends State<DescriptionView> {
                 ),
               ),
               const SizedBox(height: 30),
-              Container(
-                alignment: Alignment.centerRight,
-                height: 40,
-                width: MediaQuery.of(context).size.width / 3,
-                decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(12),
-                  color: Color(0xFF0d6fe5),
-                  //Color(0xFF0d6fe5),
-                ),
-                child: const Center(
-                  child: Text(
-                    'Description',
-                    style: TextStyle(
-                      fontSize: 15.0,
-                      fontWeight: FontWeight.bold,
-                      color: Colors.white,
+              Align(
+                alignment: Alignment.centerLeft,
+                child: Container(
+                  height: 40,
+                  width: MediaQuery.of(context).size.width / 3,
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(12),
+                    color: Color(0xFF0d6fe5),
+                    //Color(0xFF0d6fe5),
+                  ),
+                  child: const Center(
+                    child: Text(
+                      'Description',
+                      style: TextStyle(
+                        fontSize: 15.0,
+                        fontWeight: FontWeight.bold,
+                        color: Colors.white,
+                      ),
                     ),
                   ),
                 ),

@@ -18,6 +18,7 @@ class _SignupViewState extends State<SignupView> {
   final _formKey = GlobalKey<FormState>();
   bool isVisible1 = false;
   bool isVisible2 = false;
+  bool loading = false;
 
   @override
   Widget build(BuildContext context) {
@@ -159,11 +160,20 @@ class _SignupViewState extends State<SignupView> {
                           backgroundColor:
                               MaterialStatePropertyAll(Color(0xFF3D3A48))),
                       onPressed: () {
-                        final user = AuthenticationService().signUp(
-                          email: emailController.text.trim(),
-                          password: passwordController.text.trim(),
-                          fullName: nameController.text.trim(),
-                        );
+                        setState(() {
+                          loading = true;
+                        });
+                        final user = AuthenticationService()
+                            .signUp(
+                              email: emailController.text.trim(),
+                              password: passwordController.text.trim(),
+                              fullName: nameController.text.trim(),
+                            )
+                            .then((value) => setState(
+                                  () {
+                                    loading = false;
+                                  },
+                                ));
                       },
                       child: const Padding(
                         padding: EdgeInsets.symmetric(vertical: 20.0),

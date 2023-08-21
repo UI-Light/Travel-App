@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
+import 'package:travel_demo/models/hotel_model.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class StateTile extends StatelessWidget {
-  final String state;
+  final HotelRestaurantModel state;
 
   StateTile({
     Key? key,
     required this.state,
   }) : super(key: key);
 
-  final Uri _url = Uri.parse(
-      "https://www.google.com/maps/search/restaurants+in+Enugu/@6.4466217,7.5146669,14z/data=!3m1!4b1?entry=ttu");
+  late final Uri _url = Uri.parse(state.url);
 
   Future<void> _launchUrl() async {
     if (!await launchUrl(_url)) {
@@ -22,7 +22,7 @@ class StateTile extends StatelessWidget {
   Widget build(BuildContext context) {
     return ListTile(
       leading: Text(
-        state,
+        state.state,
       ),
       trailing: Container(
         height: 40,

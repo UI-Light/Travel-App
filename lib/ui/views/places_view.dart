@@ -4,8 +4,6 @@ import "package:flutter/services.dart" show rootBundle;
 import 'package:travel_demo/data/json_data.dart';
 import "package:travel_demo/models/place_model.dart";
 import "package:travel_demo/ui/shared/place_grid.dart";
-import "package:travel_demo/ui/views/description_view.dart";
-import 'package:travel_demo/models/state_model.dart';
 
 class PlacesView extends StatefulWidget {
   const PlacesView({super.key});
@@ -15,17 +13,19 @@ class PlacesView extends StatefulWidget {
 }
 
 class _PlacesViewState extends State<PlacesView> {
-  List<Place> places = [];
+  List<Place> filteredPlaces = [];
+  List<Place> unFilteredPlaces = [];
   final TextEditingController searchPlacesController = TextEditingController();
   ReadJsonData data = ReadJsonData();
   bool isLoading = true;
 
-  Future<dynamic> fetchPlace() async {
+  Future<dynamic> fetchPlaces() async {
     var result = await data.loadPlaces();
-    Future.delayed(const Duration(seconds: 2)).then(
+    Future.delayed(const Duration(seconds: 1)).then(
       (value) => setState(
         () {
-          places = result.map((e) => e.places).toList().fold(
+          unFilteredPlaces =
+              filteredPlaces = result.map((e) => e.places).toList().fold(
             //grabs all the nested list and combines their values into a single list
             [],
             (previousValue, currentValue) =>
@@ -40,15 +40,19 @@ class _PlacesViewState extends State<PlacesView> {
   @override
   void initState() {
     super.initState();
-    fetchPlace();
+    fetchPlaces();
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
-      body: SafeArea(
-        child: Container(
+      body: GestureDetector(
+        behavior: HitTestBehavior.translucent,
+        onTap: () {
+          FocusScope.of(context).unfocus();
+        },
+        child: SafeArea(
           child: Padding(
             padding: const EdgeInsets.fromLTRB(20, 50, 20, 0),
             child: Column(
@@ -71,6 +75,18 @@ class _PlacesViewState extends State<PlacesView> {
                   ),
                   controller: searchPlacesController,
                   hintText: 'Search Places',
+                  onChanged: (value) {
+                    if (value.isEmpty) {
+                      filteredPlaces = unFilteredPlaces;
+                    } else {
+                      filteredPlaces = unFilteredPlaces
+                          .where((e) => e.name
+                              .toLowerCase()
+                              .contains(value.toLowerCase()))
+                          .toList();
+                    }
+                    setState(() {});
+                  },
                 ),
                 const SizedBox(height: 20),
                 isLoading
@@ -79,7 +95,7 @@ class _PlacesViewState extends State<PlacesView> {
                       )
                     : Expanded(
                         child: GridView.builder(
-                          itemCount: places.length,
+                          itemCount: filteredPlaces.length,
                           gridDelegate:
                               const SliverGridDelegateWithFixedCrossAxisCount(
                             crossAxisCount: 2,
@@ -87,7 +103,7 @@ class _PlacesViewState extends State<PlacesView> {
                             crossAxisSpacing: 4.0,
                           ),
                           itemBuilder: (context, int index) =>
-                              PlaceGrid(info: places[index]),
+                              PlaceGrid(info: filteredPlaces[index]),
                         ),
                       ),
               ],

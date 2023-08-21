@@ -29,8 +29,9 @@ class Database {
   static Future<void> removePlace(Place place) async {
     await _init();
     List<Place> places = await getPlaces(); //retrieves all the places
-    places.remove(place); //remove the requested place
+    places.removeWhere((e) => e.url == place.url); //remove the requested place
     final placesJson = places.map((e) => e.toJson());
+    print(placesJson);
 
     final result = {};
     result["places"] = placesJson.toList();

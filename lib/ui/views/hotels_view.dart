@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:travel_demo/data/json_data.dart';
+import 'package:travel_demo/models/hotel_model.dart';
 import 'package:travel_demo/ui/shared/state_hotel_tile.dart';
 
 class HotelsView extends StatefulWidget {
@@ -10,44 +12,30 @@ class HotelsView extends StatefulWidget {
 
 class _HotelsViewState extends State<HotelsView> {
   TextEditingController searchHotelsController = TextEditingController();
-  final List States = [
-    "Abia",
-    "Abuja",
-    "Adamawa",
-    "Akwa Ibom",
-    "Anambra",
-    "Bauchi",
-    "Bayelsa",
-    "Benue",
-    "Borno",
-    "Cross River",
-    "Delta",
-    "Ebonyi",
-    "Edo",
-    "Ekiti",
-    "Enugu",
-    "Gombe",
-    "Imo",
-    "Jigawa",
-    "Kaduna",
-    "Kano",
-    "Katsina",
-    "Kebbi",
-    "Kogi",
-    "Kwara",
-    "Lagos",
-    "Nasarawa",
-    "Niger",
-    "Ogun",
-    "Ondo",
-    "Osun",
-    "Oyo",
-    "Plateau",
-    "Rivers",
-    "Sokoto",
-    "Taraba",
-    "Zamfara"
-  ];
+  List<HotelRestaurantModel> filteredPlaces = [];
+  List<HotelRestaurantModel> unFilteredPlaces = [];
+  final TextEditingController searchPlacesController = TextEditingController();
+  ReadJsonData data = ReadJsonData();
+  bool isLoading = true;
+
+  Future<dynamic> fetchPlaces() async {
+    var result = await data.loadHotels();
+    Future.delayed(const Duration(seconds: 1)).then(
+      (value) => setState(
+        () {
+          unFilteredPlaces = filteredPlaces = result;
+          isLoading = false;
+        },
+      ),
+    );
+  }
+
+  @override
+  void initState() {
+    super.initState();
+    fetchPlaces();
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -75,26 +63,37 @@ class _HotelsViewState extends State<HotelsView> {
                     color: Colors.grey,
                   ),
                   controller: searchHotelsController,
-                  hintText: 'Search',
+                  hintText: 'Search State',
+                  onChanged: (value) {
+                    if (value.isEmpty) {
+                      filteredPlaces = unFilteredPlaces;
+                    } else {
+                      filteredPlaces = unFilteredPlaces
+                          .where((e) => e.state
+                              .toLowerCase()
+                              .contains(value.toLowerCase()))
+                          .toList();
+                    }
+                    setState(() {});
+                  },
                 ),
                 const SizedBox(height: 20),
-                Expanded(
-                  child: ListView(
-                    children: [
-                      StateTile(state: 'Abia'),
-                      StateTile(state: 'Abuja'),
-                      StateTile(state: 'Adamawa'),
-                      StateTile(state: 'Akwa Ibom'),
-                      StateTile(state: 'Anambra'),
-                      StateTile(state: 'Bayelsa'),
-                      StateTile(state: 'Benue'),
-                      StateTile(state: 'Borno'),
-                      StateTile(state: 'Cross river'),
-                      StateTile(state: 'Delta'),
-                      StateTile(state: 'Ebonyi'),
-                    ],
-                  ),
-                ),
+                isLoading
+                    ? const CircularProgressIndicator(
+                        valueColor: AlwaysStoppedAnimation(Colors.blue),
+                      )
+                    : filteredPlaces.isEmpty
+                        ? const Center(
+                            heightFactor: 30,
+                            child: Text("No states"),
+                          )
+                        : Expanded(
+                            child: ListView.builder(
+                              itemCount: filteredPlaces.length,
+                              itemBuilder: (context, int index) =>
+                                  StateTile(state: filteredPlaces[index]),
+                            ),
+                          ),
               ],
             ),
           ),

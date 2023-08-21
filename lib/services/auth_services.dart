@@ -51,10 +51,11 @@ class AuthenticationService {
   }
 
   //signup to with email and password
-  Future signUp(
-      {required String email,
-      required String password,
-      required String fullName}) async {
+  Future signUp({
+    required String email,
+    required String password,
+    required String fullName,
+  }) async {
     try {
       final credential =
           await FirebaseAuth.instance.createUserWithEmailAndPassword(

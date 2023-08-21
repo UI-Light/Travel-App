@@ -1,10 +1,8 @@
 import 'dart:convert';
 import "dart:async";
-import 'package:http/http.dart' as http;
 import 'package:travel_demo/models/hotel_model.dart';
-import 'package:travel_demo/models/restaurant_model.dart';
-import 'package:travel_demo/models/state_model.dart';
 import 'package:flutter/services.dart' show rootBundle;
+import 'package:travel_demo/models/state_model.dart';
 
 //class ReadJsonFile {
 // Future<States> getPlaces() async {
@@ -33,23 +31,23 @@ class ReadJsonData {
     return statesList;
   }
 
-  Future<List<HotelModel>> loadHotels() async {
+  Future<List<HotelRestaurantModel>> loadHotels() async {
     String jsonString =
         await rootBundle.loadString('assets/stateHotelUrl.json');
     final jsonResponse = json.decode(jsonString);
     var hotels = jsonResponse['hotelUrl'];
-    List<HotelModel> hotelsList =
-        hotels.map((i) => HotelModel.fromJson(i)).toList();
+    List<HotelRestaurantModel> hotelsList = List<HotelRestaurantModel>.from(
+        hotels.map((i) => HotelRestaurantModel.fromJson(i)));
     return hotelsList;
   }
 
-  Future<List<RestaurantModel>> loadRestaurants() async {
+  Future<List<HotelRestaurantModel>> loadRestaurants() async {
     String jsonString =
         await rootBundle.loadString('assets/stateRestaurants.json');
     final jsonResponse = json.decode(jsonString);
     var restaurant = jsonResponse['restaurantUrl'];
-    List<RestaurantModel> restaurantList =
-        restaurant.map((i) => RestaurantModel.fromJson(i)).toList();
+    List<HotelRestaurantModel> restaurantList = List<HotelRestaurantModel>.from(
+        restaurant.map((i) => HotelRestaurantModel.fromJson(i)));
     return restaurantList;
   }
 }

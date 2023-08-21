@@ -3,11 +3,12 @@ import 'package:travel_demo/models/place_model.dart';
 
 class PlaceGrid extends StatefulWidget {
   final Place info;
+  final VoidCallback? callback;
 
   const PlaceGrid({
     super.key,
     required this.info,
-    // required this.placeName,
+    this.callback,
   });
 
   @override
@@ -18,11 +19,13 @@ class _PlaceGridState extends State<PlaceGrid> {
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      onTap: () => Navigator.pushNamed(
-        context,
-        '/description',
-        arguments: widget.info,
-      ),
+      onTap: () {
+        Navigator.pushNamed(
+          context,
+          '/description',
+          arguments: widget.info,
+        ).then((value) => widget.callback?.call());
+      },
       child: Card(
         elevation: 4.0,
         child: Column(

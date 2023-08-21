@@ -42,21 +42,14 @@ class _DashboardViewState extends State<DashboardView> {
               leading: const Icon(Icons.explore),
               title: const Text("Explore"),
               onTap: () {
-                // Navigate to explore screen
+                Navigator.pushNamed(context, '/hotels');
               },
             ),
             ListTile(
               leading: const Icon(Icons.bookmark),
               title: const Text("Saved Places"),
               onTap: () {
-                // Navigate to saved places screen
-              },
-            ),
-            ListTile(
-              leading: const Icon(Icons.settings),
-              title: const Text("Language"),
-              onTap: () {
-                Navigator.pushNamed(context, '/settings');
+                Navigator.pushNamed(context, '/saved');
               },
             ),
             const Divider(),
