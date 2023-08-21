@@ -1,24 +1,14 @@
-class RestaurantUrl {
+class RestaurantModel {
   //converting the Url json to plain old dart objects
   final String state;
   final String url;
 
-  RestaurantUrl({required this.state, required this.url});
+  RestaurantModel({required this.state, required this.url});
 
-  factory RestaurantUrl.fromJson(Map<String, dynamic> json) {
-    return RestaurantUrl(
+  factory RestaurantModel.fromJson(Map<String, dynamic> json) {
+    return RestaurantModel(
       state: json['state'],
       url: json['url'],
     );
-  }
-}
-
-class StateRestaurantUrl {
-  final List<RestaurantUrl> urlR;
-
-  StateRestaurantUrl({required this.urlR});
-
-  factory StateRestaurantUrl.fromJson(Map<String, dynamic> json) {
-    return StateRestaurantUrl(urlR: json['url']);
   }
 }

@@ -1,14 +1,45 @@
 import "package:flutter/material.dart";
 import "package:google_fonts/google_fonts.dart";
+import "package:travel_demo/data/database.dart";
+import "package:travel_demo/models/place_model.dart";
+import "package:url_launcher/url_launcher.dart";
 
 class DescriptionView extends StatefulWidget {
-  const DescriptionView({super.key});
+  final Place place;
+  const DescriptionView({super.key, required this.place});
 
   @override
   State<DescriptionView> createState() => _DescriptionViewState();
 }
 
 class _DescriptionViewState extends State<DescriptionView> {
+  bool _isSaved = false;
+
+  @override
+  void initState() {
+    super.initState();
+    Future.microtask(
+      () async {
+        _isSaved = (await Database.getPlace(widget.place.url)) != null;
+        setState(() {});
+      },
+    );
+  }
+
+  Future<void> addOrRemovePlace() async {
+    if (_isSaved) {
+      await Database.removePlace(widget.place);
+      setState(() {
+        _isSaved = false;
+      });
+    } else {
+      await Database.savePlace(widget.place);
+      setState(() {
+        _isSaved = true;
+      });
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     return SafeArea(
@@ -30,9 +61,9 @@ class _DescriptionViewState extends State<DescriptionView> {
                     ),
                     color: const Color(0xFF3D3A48),
                   ),
-                  const Expanded(
+                  Expanded(
                     child: Text(
-                      "Ogbunike Caves",
+                      widget.place.name,
                       textAlign: TextAlign.center,
                       style:
                           TextStyle(fontWeight: FontWeight.bold, fontSize: 25),
@@ -49,9 +80,8 @@ class _DescriptionViewState extends State<DescriptionView> {
                 height: MediaQuery.of(context).size.height / 5,
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(16),
-                  image: const DecorationImage(
-                    image: NetworkImage(
-                        "https://upload.wikimedia.org/wikipedia/commons/b/bb/Ogbunike-Cave-Oyi-Anambra-State.png"),
+                  image: DecorationImage(
+                    image: NetworkImage(widget.place.image),
                     fit: BoxFit.fill,
                   ),
                 ),
@@ -78,11 +108,11 @@ class _DescriptionViewState extends State<DescriptionView> {
                 ),
               ),
               const SizedBox(height: 20),
-              const Expanded(
+              Expanded(
                 child: Padding(
                   padding: EdgeInsets.all(8.0),
                   child: Text(
-                    "Embark on a mystical journey into the heart of the earth. The interconnected caves hold stories and legends that captivate the imagination..",
+                    widget.place.description,
                     style: TextStyle(
                       fontSize: 18,
                     ),
@@ -101,15 +131,23 @@ class _DescriptionViewState extends State<DescriptionView> {
                       ),
                       child: Center(
                         child: IconButton(
-                          onPressed: () {},
-                          icon: const Icon(
-                            Icons.favorite_border,
+                          onPressed: () {
+                            addOrRemovePlace();
+                          },
+                          icon: Icon(
+                            _isSaved ? Icons.favorite : Icons.favorite_border,
                           ),
                         ),
                       ),
                     ),
                     GestureDetector(
-                      onTap: () {},
+                      onTap: () {
+                        launchUrl(Uri.parse(widget.place.url));
+                        // Navigator.of(context).pushNamed(
+                        //   "/map",
+                        //   arguments: widget.place.url,
+                        // );
+                      },
                       child: Container(
                         height: MediaQuery.of(context).size.height / 16,
                         width: MediaQuery.of(context).size.width / 2.5,

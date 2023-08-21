@@ -1,22 +1,22 @@
 import 'package:travel_demo/models/place_model.dart';
 
-//converting the state json to plain old dart objects
-class States {
-  final String stateName;
+//converting the stateModel json to plain old dart objects
+class StateModel {
+  final String stateModelName;
   final List<Place> places;
 
-  States({
-    required this.stateName,
+  StateModel({
+    required this.stateModelName,
     required this.places,
   });
 
-  factory States.fromJson(Map<String, dynamic> json) {
+  factory StateModel.fromJson(Map<String, dynamic> json) {
     var listP = json['places'] as List;
 
     List<Place> placesList = listP.map((i) => Place.fromJson(i)).toList();
 
-    return States(
-      stateName: json['name'],
+    return StateModel(
+      stateModelName: json['name'],
       places: placesList,
     );
   }

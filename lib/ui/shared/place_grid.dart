@@ -17,24 +17,40 @@ class PlaceGrid extends StatefulWidget {
 class _PlaceGridState extends State<PlaceGrid> {
   @override
   Widget build(BuildContext context) {
-    return Card(
-      elevation: 4.0,
-      child: Column(
-        children: [
-          Image.network(
-            widget.info.image,
-            fit: BoxFit.contain,
-          ),
-          Expanded(
-            child: Padding(
-              padding: EdgeInsets.all(8.0),
-              child: Text(
-                widget.info.description,
-                // style: TextStyle(fontSize: 15),
+    return GestureDetector(
+      onTap: () => Navigator.pushNamed(
+        context,
+        '/description',
+        arguments: widget.info,
+      ),
+      child: Card(
+        elevation: 4.0,
+        child: Column(
+          children: [
+            Container(
+              width: double.infinity,
+              height: 100,
+              decoration: BoxDecoration(
+                color: Colors.grey.shade200,
+                image: DecorationImage(
+                  fit: BoxFit.cover,
+                  image: NetworkImage(widget.info.image),
+                ),
               ),
             ),
-          ),
-        ],
+            Expanded(
+              child: Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Text(
+                  widget.info.name,
+                  style: const TextStyle(
+                    fontSize: 16,
+                  ),
+                ),
+              ),
+            ),
+          ],
+        ),
       ),
     );
   }

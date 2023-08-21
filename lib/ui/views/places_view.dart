@@ -15,17 +15,26 @@ class PlacesView extends StatefulWidget {
 }
 
 class _PlacesViewState extends State<PlacesView> {
-  List places = [];
+  List<Place> places = [];
   final TextEditingController searchPlacesController = TextEditingController();
   ReadJsonData data = ReadJsonData();
   bool isLoading = true;
 
   Future<dynamic> fetchPlace() async {
-    var result = await data.loadPlace();
-    Future.delayed(const Duration(seconds: 2)).then((value) => setState(() {
-          places = result.places;
+    var result = await data.loadPlaces();
+    Future.delayed(const Duration(seconds: 2)).then(
+      (value) => setState(
+        () {
+          places = result.map((e) => e.places).toList().fold(
+            //grabs all the nested list and combines their values into a single list
+            [],
+            (previousValue, currentValue) =>
+                [...previousValue, ...currentValue],
+          );
           isLoading = false;
-        }));
+        },
+      ),
+    );
   }
 
   @override
@@ -77,10 +86,8 @@ class _PlacesViewState extends State<PlacesView> {
                             mainAxisSpacing: 4.0,
                             crossAxisSpacing: 4.0,
                           ),
-                          itemBuilder: (context, int index) => GestureDetector(
-                            onTap: () => DescriptionView(),
-                            child: PlaceGrid(info: places[index]),
-                          ),
+                          itemBuilder: (context, int index) =>
+                              PlaceGrid(info: places[index]),
                         ),
                       ),
               ],

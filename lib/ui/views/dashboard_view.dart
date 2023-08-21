@@ -99,7 +99,7 @@ class _DashboardViewState extends State<DashboardView> {
                   title: "Places",
                   onTap: () {
                     // Navigate to places screen
-                    Navigator.pushNamed(context, '/description');
+                    Navigator.pushNamed(context, '/places');
                   },
                 ),
                 DashboardCard(
